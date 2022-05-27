@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: rgb(216, 68, 0);
+}
+
+.interest {
+    flex-basis: 16%;
+    padding: 1em;
+    margin: 0em;
+    text-align: top;
+    /* Center align the text in the boxes */
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
